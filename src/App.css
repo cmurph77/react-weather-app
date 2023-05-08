@@ -1,10 +1,28 @@
 :root {
-  --background:  #1389cd;
+  --components:  #1389cd;
+  --background:  #24bcea;
+
 }
 .App {
   text-align: center;
 }
 
+.WeatherComp {
+  background-color: var(--background);
+  padding: 5%;
+}
+
+.button {
+  padding-right: 10px;
+  color: black;
+  background-color: #e7e257;
+  border: 0.5;
+  border-color: #e7e257;
+}
+
+.search-box {
+  width: 200px;
+}
 
 .App-header {
   background-color: var(--background);

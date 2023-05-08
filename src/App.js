@@ -34,11 +34,12 @@ function App() {
         {/* Search Box*/}
         <div>
           <input  
+                className='search-box'
                 type="text" 
-                placeholder="Search..."
+                placeholder="Search for a City/Town..."
                 onChange={(e) => setSearch(e.target.value)}
           />
-          <button onClick={searchPressed} >Search</button>
+          <button onClick={searchPressed} className='button'>Search</button>
          </div>
 
         {typeof weather.main !== "undefined" ? (
