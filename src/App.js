@@ -29,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img height="100"src='https://www.pngmart.com/files/12/Sun-And-Cloud-PNG-HD.png'/>
         {/* HEADER */}
         <h1>Weather App</h1>
         {/* Search Box*/}

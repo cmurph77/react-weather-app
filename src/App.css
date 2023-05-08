@@ -1,6 +1,6 @@
 :root {
   --components:  #1389cd;
-  --background:  #24bcea;
+  --background:  #caf2bf;
 
 }
 .App {
@@ -10,6 +10,18 @@
 .WeatherComp {
   background-color: var(--background);
   padding: 5%;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: black;
 }
 
 .button {
