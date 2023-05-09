@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styling/index.css';
-import App from './App';
 import WeatherPage from './pages/WeatherPage';
 import HomePage from './pages/HomePage';
 import reportWebVitals from './reportWebVitals';
