@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './styling/index.css';
 import App from './App';
+import WeatherPage from './pages/WeatherPage';
+import HomePage from './pages/HomePage';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter,RouterProvider, } from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/weather",
+    element: <WeatherPage></WeatherPage>
+  },
+  {
+    path: "/",
+    element: <HomePage></HomePage>
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
