@@ -1,0 +1,16 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #61dee9;
+  }
+  
+  li {
+    float: left;
+  }
+
+  .Navbar {
+    padding: 100px;
+    top: 1%;
+  }
