@@ -12,6 +12,18 @@
   align-items: center;
 }
 
+.map-container{
+  width: 50vw;
+  align-items: center;
+  height: 50vh;
+}
+.mapPage {
+  background-color: var(--background);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .weatherPage {
   background-color: var(--background);
   min-height: 100vh;

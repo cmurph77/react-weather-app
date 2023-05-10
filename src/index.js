@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styling/index.css';
 import WeatherPage from './pages/WeatherPage';
 import HomePage from './pages/HomePage';
+import MapPage from './pages/MapPage';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter,RouterProvider, } from "react-router-dom";
 
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <HomePage></HomePage>
+  },
+  {
+    path: "/maps",
+    element: <MapPage></MapPage>
   }
 ]);
 
